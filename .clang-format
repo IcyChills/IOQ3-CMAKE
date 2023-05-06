@@ -1,0 +1,33 @@
+Language: Cpp
+Standard: Cpp11
+BasedOnStyle: LLVM
+UseTab: Always
+TabWidth: 4
+IndentWidth: 4
+ColumnLimit: 120
+SortIncludes: false
+DerivePointerAlignment: false
+PointerAlignment: Left
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveAssignments: true
+BinPackParameters: true
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+
+AllowAllParametersOfDeclarationOnNextLine: true
+KeepEmptyLinesAtTheStartOfBlocks: true
+BreakBeforeBraces: Attach
+CommentPragmas: '^ IWYU pragma:'
+ReflowComments:  true
+
+AlignTrailingComments: true
+
+FixNamespaceComments: true
+AlwaysBreakBeforeMultilineStrings: false
